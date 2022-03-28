@@ -1,0 +1,34 @@
+let Mock = require('mockjs')
+let arrs = [
+    {
+        'image':'http://www.bjjfr.com/data/upload/image/20211009/1633761426129825.jpg',
+        'name':'MR.周&MS.陈',
+        'data':'2021.12.19',
+        'heat':0
+    },
+    {
+        'image':'http://www.bjjfr.com/data/upload/image/20211011/1633923916731198.jpg',
+        'name':'MR.王&MS.李',
+        'data':'2021.11.06',
+        'heat':5
+    },
+    {
+        'image':'http://www.bjjfr.com/data/upload/image/20211011/1633931156434835.jpg',
+        'name':'MR.朱&MS.栾',
+        'data':'2021.11.23',
+        'heat':9
+    },
+    {
+        'image':'http://www.bjjfr.com/data/upload/image/20211011/1633937108924428.jpg',
+        'name':'MR.范&MS.谷',
+        'data':'2021.12.11',
+        'heat':9
+    },
+    {
+        'image':'http://www.bjjfr.com/data/upload/image/20211009/1633761643856524.jpg',
+        'name':'MR.赵&MS.张',
+        'data':'2021.10.9',
+        'heat':3
+    }
+]
+Mock.mock('/api/kepian',arrs)
